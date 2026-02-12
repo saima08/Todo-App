@@ -53,3 +53,6 @@ ignore = ["E501"]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
+
+[tool.uv.workspace]
+members = ["Phase-2/backend"]
